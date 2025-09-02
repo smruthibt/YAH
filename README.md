@@ -5,7 +5,6 @@ It simulates a distributed file system (DFS) with Namenodes, Datanodes, replicat
 
 <img width="675" height="533" alt="image" src="https://github.com/user-attachments/assets/a59d4aba-87e8-4584-922e-cb3106b196ae" />
 
-
 Key Features
 1. Multiple DFS instances running simultaneously.
 2. Persistent storage (files remain across runs).
