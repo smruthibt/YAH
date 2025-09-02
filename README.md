@@ -1,7 +1,9 @@
 Yet Another Hadoop (YAH)
 
 Yet Another Hadoop (YAH) is a Python-based, lightweight reimplementation of Hadoop’s HDFS and MapReduce.
-It simulates a distributed file system (DFS) with Namenodes, Datanodes, replication, and job execution on a single machine using Flask servers and subprocess orchestration ￼.
+It simulates a distributed file system (DFS) with Namenodes, Datanodes, replication, and job execution on a single machine using Flask servers and subprocess orchestration.
+
+<img width="675" height="533" alt="image" src="https://github.com/user-attachments/assets/a59d4aba-87e8-4584-922e-cb3106b196ae" />
 
 Key Features
 1. Multiple DFS instances running simultaneously.
@@ -81,7 +83,6 @@ Run MapReduce
 
 python mapreduce_driver.py input.txt output/
 
-===============================================================================================================================================================================================================================
 
 Example Workflow
 1.	Run create_dfs.py → generates DFS config.
